@@ -53,6 +53,7 @@ class LocalUserCrudTest extends DuskTestCase
                 ->type('email', 'nao-e-email')
                 ->type('password', '123')
                 ->press('Enviar')
+                ->waitFor('.alert-danger')
                 ->assertPresent('.alert-danger');
 
             // UPDATE (inclui troca de senha, pois o update exige password)
