@@ -12,6 +12,9 @@
             <file>./tests/Browser/IndexTest.php</file>
             <file>./tests/Browser/RegraCrudTest.php</file>
             <file>./tests/Browser/ImpressoraCrudTest.php</file>
+            <file>./tests/Browser/AssistantCrudTest.php</file>
+            <file>./tests/Browser/LocalUserCrudTest.php</file>
+            <file>./tests/Browser/ImpressoraCrudTest.php</file>
         </testsuite>
     </testsuites>
 </phpunit>
